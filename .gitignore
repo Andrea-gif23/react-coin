@@ -1,0 +1,23 @@
+# Ignorar node_modules (no subir dependencias)
+node_modules/
+
+# Ignorar archivos de entorno local
+.env
+.env.local
+
+# Ignorar archivos de construcción
+/dist/
+/build/
+
+# Ignorar archivos de configuración local
+.vscode/
+.idea/
+
+# Ignorar archivos de caché
+*.log
+*.tmp
+*.temp
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
